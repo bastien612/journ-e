@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.lab.journe",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.4.0",
+    "applicationType": "monolith",
+    "baseName": "journe",
+    "packageName": "com.lab.journe",
+    "packageFolder": "com/lab/journe",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NzY3NDIxZWE2Y2E1NmY4YTA4OGZjMWRkOTI5NDdkOGIzOTJiYjI4MTcwZmVlOTk4M2FhYzA3M2Q4NzVjNjMzYWZhNjA2NWM3NjU3YmMwMjA1YTExMjRhYWEwODQwMGViZjA0YmUyZjExYzQ3ZDQ5Y2QyOWU2YzcwOWQ0ZmVjOTE=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "fr"
+    ]
+  }
+}

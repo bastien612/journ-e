@@ -1,0 +1,32 @@
+version: '3.3'
+
+services:
+  # app:
+    # image: jhipster/jhipster
+    # volumes:
+    #   - ./app:/home/jhipster/app
+    #   - .m2:/home/jhipster/.m2
+    # ports:
+    #   - 48080:8080
+    #   - 43001:3001
+    #   - 49000:9000
+
+  db:
+    image: postgres:10.5
+    volumes:
+      - journe-db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=journe
+      - POSTGRES_PASSWORD=journe
+      - POSTGRES_DB=journe
+    ports:
+      - 5432:5432
+
+  adminer:
+    image: adminer:latest
+    restart: always
+    ports:
+      - 40001:8080
+
+volumes:
+  journe-db:
